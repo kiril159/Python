@@ -1,0 +1,4 @@
+echo 'deb http://ru.archive.ubuntu.com/ubuntu/ bionic universe'| tee -a /etc/apt/sources.list
+apt update
+apt install mc
+
